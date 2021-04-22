@@ -26,8 +26,8 @@ body{
   background-color: red;
 }
 
-.dx-app{
-  text-align: center;
+.box{
+    text-align: center;
   margin-top: 50px ;
   margin-left: 10px;
   margin-right: 10px;
@@ -35,21 +35,15 @@ body{
   height: 550px;
   background-color: white;
   border-radius: 10px;
-  background-image: url(../img/spesa.jpg);
   background-size: cover;
 }
 
+.dx-app{
+  background-image: url(../img/spesa.jpg);
+}
+
 .sx-app{
-  text-align: center;
-  margin-top: 50px ;
-  margin-left: 10px;
-  margin-right: 10px;
-  width: 48%;
-  height: 550px;
-  background-color: white;
-  border-radius: 10px;
   background-image: url(../img/viaggi1.jpg);
-  background-size: cover;
 }
 
 h1{
@@ -68,6 +62,7 @@ input{
   padding-left: 15px;
   margin-top: 30px;
   margin-bottom: 20px;
+  margin-left: 20px;
   outline: 0;
   background-color: rgba(255, 255, 255, 0.95);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -96,14 +91,18 @@ ul li{
 }
 
 
-ul li i{
-  cursor: pointer;
+i{
   opacity: 0.8;
   margin-right: 20px;
 }
 
-ul li i:hover{
+i:hover{
   opacity: 1;
   color: darkred;
+  cursor: pointer;
 }
 
+
+.fa-recycle{
+  font-size: 20px;
+}

@@ -42,6 +42,14 @@ $(document).ready(function(){
       $(this).parent().remove();
     });
 
+    $(document).on('click', '.sx-app .fas.fa-recycle', function(){
+      $('.sx-app ul li').remove();
+    });
+
+    $(document).on('click', '.dx-app .fas.fa-recycle', function(){
+      $('.dx-app ul li').remove();
+    });
+
 
     $('.sx-app input').keyup(function(event){
 
